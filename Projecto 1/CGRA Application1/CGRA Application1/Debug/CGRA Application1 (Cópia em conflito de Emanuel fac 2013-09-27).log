@@ -1,0 +1,17 @@
+﻿Build started 17/09/2013 12:28:52.
+     1>Project "C:\Users\Emanuel\Downloads\Dropbox\faculdade\3 ano\LAIG\1 proj\CGRA Application1\CGRA Application1\CGRA Application1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Libraries\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt XMLScene.cpp
+         XMLScene.cpp
+     1>c:\users\emanuel\downloads\dropbox\faculdade\3 ano\laig\1 proj\cgra application1\cgra application1\xmlscene.cpp(50): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Emanuel\Downloads\Dropbox\faculdade\3 ano\LAIG\1 proj\CGRA Application1\Debug\CGRA Application1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Libraries\lib glew32.lib CGFlibd.lib tinyxml.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Emanuel\Downloads\Dropbox\faculdade\3 ano\LAIG\1 proj\CGRA Application1\Debug\CGRA Application1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Emanuel\Downloads\Dropbox\faculdade\3 ano\LAIG\1 proj\CGRA Application1\Debug\CGRA Application1.lib" /MACHINE:X86 Debug\main.obj
+         Debug\XMLScene.obj
+         TinyXML.lib
+         CGRA Application1.vcxproj -> C:\Users\Emanuel\Downloads\Dropbox\faculdade\3 ano\LAIG\1 proj\CGRA Application1\Debug\CGRA Application1.exe
+     1>Done Building Project "C:\Users\Emanuel\Downloads\Dropbox\faculdade\3 ano\LAIG\1 proj\CGRA Application1\CGRA Application1\CGRA Application1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.88
