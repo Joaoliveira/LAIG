@@ -2,6 +2,7 @@
 #define _SCENE_H_
 
 #include "graph.h"
+#include "Element.h"
 
 
 class Scene
