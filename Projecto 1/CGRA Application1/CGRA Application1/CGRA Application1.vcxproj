@@ -79,17 +79,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Element.h" />
     <ClInclude Include="GFappearance_ext.h" />
     <ClInclude Include="graph.h" />
+    <ClInclude Include="Scene.h" />
     <ClInclude Include="tinystr.h" />
     <ClInclude Include="tinyxml.h" />
     <ClInclude Include="transform.h" />
     <ClInclude Include="XMLScene.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Element.cpp" />
     <ClCompile Include="GFappearance_ext.cpp" />
     <ClCompile Include="graph.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Scene.cpp" />
     <ClCompile Include="transform.cpp" />
     <ClCompile Include="XMLScene.cpp" />
   </ItemGroup>

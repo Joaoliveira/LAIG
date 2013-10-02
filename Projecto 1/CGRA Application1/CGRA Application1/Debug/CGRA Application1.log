@@ -1,29 +1,47 @@
-﻿Build started 01/10/2013 11:33:36.
-     1>Project "C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\CGRA Application1\CGRA Application1.vcxproj" on node 2 (Build target(s)).
+﻿Build started 01/10/2013 15:45:47.
+     1>Project "C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\CGRA Application1\CGRA Application1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Libraries\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GFappearance_ext.cpp graph.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Libraries\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GFappearance_ext.cpp graph.cpp main.cpp transform.cpp XMLScene.cpp
+         XMLScene.cpp
+     1>c:\users\emanuel\documents\github\laig\projecto 1\cgra application1\cgra application1\xmlscene.cpp(52): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\emanuel\documents\github\laig\projecto 1\cgra application1\cgra application1\xmlscene.cpp(222): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\emanuel\documents\github\laig\projecto 1\cgra application1\cgra application1\xmlscene.cpp(234): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\emanuel\documents\github\laig\projecto 1\cgra application1\cgra application1\xmlscene.cpp(268): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\emanuel\documents\github\laig\projecto 1\cgra application1\cgra application1\xmlscene.cpp(283): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\emanuel\documents\github\laig\projecto 1\cgra application1\cgra application1\xmlscene.cpp(147): warning C4101: 'ambient' : unreferenced local variable
+     1>c:\users\emanuel\documents\github\laig\projecto 1\cgra application1\cgra application1\xmlscene.cpp(147): warning C4101: 'enabled' : unreferenced local variable
+     1>c:\users\emanuel\documents\github\laig\projecto 1\cgra application1\cgra application1\xmlscene.cpp(242): warning C4101: 'y' : unreferenced local variable
+     1>c:\users\emanuel\documents\github\laig\projecto 1\cgra application1\cgra application1\xmlscene.cpp(242): warning C4101: 'x' : unreferenced local variable
+     1>c:\users\emanuel\documents\github\laig\projecto 1\cgra application1\cgra application1\xmlscene.cpp(242): warning C4101: 'z' : unreferenced local variable
+         transform.cpp
+         main.cpp
          graph.cpp
          GFappearance_ext.cpp
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\Debug\CGRA Application1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Libraries\lib glew32.lib CGFlibd.lib tinyxml.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\Debug\CGRA Application1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\Debug\CGRA Application1.lib" /MACHINE:X86 Debug\GFappearance_ext.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\Debug\CGRA Application1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Libraries\lib glew32.lib CGFlibd.lib tinyxml.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\Debug\CGRA Application1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\Debug\CGRA Application1.lib" /MACHINE:X86 Debug\GFappearance_ext.obj
          Debug\graph.obj
          Debug\main.obj
          Debug\transform.obj
          Debug\XMLScene.obj
          TinyXML.lib
      1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
-     1>CGFlibd.lib(CGFappearance.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'CGFlibd.lib(CGFappearance.obj)' or at 'C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\Debug\vc110.pdb'; linking object as if no debug info
-     1>CGFlibd.lib(CGFtexture.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'CGFlibd.lib(CGFtexture.obj)' or at 'C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\Debug\vc110.pdb'; linking object as if no debug info
-     1>CGFlibd.lib(imagetools.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'CGFlibd.lib(imagetools.obj)' or at 'C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\Debug\vc110.pdb'; linking object as if no debug info
-     1>CGFlibd.lib(stb_image.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'CGFlibd.lib(stb_image.obj)' or at 'C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\Debug\vc110.pdb'; linking object as if no debug info
-     1>tinyxml.lib(tinystr.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'tinyxml.lib(tinystr.obj)' or at 'C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\Debug\vc100.pdb'; linking object as if no debug info
-     1>tinyxml.lib(tinyxml.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'tinyxml.lib(tinyxml.obj)' or at 'C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\Debug\vc100.pdb'; linking object as if no debug info
-     1>tinyxml.lib(tinyxmlerror.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'tinyxml.lib(tinyxmlerror.obj)' or at 'C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\Debug\vc100.pdb'; linking object as if no debug info
-     1>tinyxml.lib(tinyxmlparser.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'tinyxml.lib(tinyxmlparser.obj)' or at 'C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\Debug\vc100.pdb'; linking object as if no debug info
-         CGRA Application1.vcxproj -> C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\Debug\CGRA Application1.exe
-     1>Done Building Project "C:\Users\Jonz\Dropbox\1 proj\CGRA Application1\CGRA Application1\CGRA Application1.vcxproj" (Build target(s)).
+     1>CGFlibd.lib(CGFappearance.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'CGFlibd.lib(CGFappearance.obj)' or at 'C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\Debug\vc110.pdb'; linking object as if no debug info
+     1>CGFlibd.lib(CGFtexture.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'CGFlibd.lib(CGFtexture.obj)' or at 'C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\Debug\vc110.pdb'; linking object as if no debug info
+     1>CGFlibd.lib(imagetools.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'CGFlibd.lib(imagetools.obj)' or at 'C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\Debug\vc110.pdb'; linking object as if no debug info
+     1>CGFlibd.lib(stb_image.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'CGFlibd.lib(stb_image.obj)' or at 'C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\Debug\vc110.pdb'; linking object as if no debug info
+     1>tinyxml.lib(tinystr.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'tinyxml.lib(tinystr.obj)' or at 'C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\Debug\vc100.pdb'; linking object as if no debug info
+     1>tinyxml.lib(tinyxml.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'tinyxml.lib(tinyxml.obj)' or at 'C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\Debug\vc100.pdb'; linking object as if no debug info
+     1>tinyxml.lib(tinyxmlerror.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'tinyxml.lib(tinyxmlerror.obj)' or at 'C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\Debug\vc100.pdb'; linking object as if no debug info
+     1>tinyxml.lib(tinyxmlparser.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'tinyxml.lib(tinyxmlparser.obj)' or at 'C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\Debug\vc100.pdb'; linking object as if no debug info
+         CGRA Application1.vcxproj -> C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\Debug\CGRA Application1.exe
+     1>Done Building Project "C:\Users\Emanuel\Documents\GitHub\LAIG\Projecto 1\CGRA Application1\CGRA Application1\CGRA Application1.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.43
+Time Elapsed 00:00:10.40
