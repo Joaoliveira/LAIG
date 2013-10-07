@@ -1,16 +1,19 @@
 #include <map>
 #include <vector>
+#include <iostream>
 #include "transform.h"
 
 using namespace std;
 
 class graphElement{
-	virtual void draw() const = 0;
+	//virtual void draw() const = 0;
+	virtual void print() const;
 };
 
 class leaf:graphElement{
 public:
 	virtual void draw() const = 0;
+	virtual void print() const;
 };
 
 class node:graphElement{
@@ -23,16 +26,20 @@ public:
 	node(string id);
 	void addTransform(transform * t);
 	void setAppearence(float emissive[4], float ambient[4], float diffuse [4], float specular [4], float shininess, string texturePath);
-	void draw(); //aplica a sua aparência e transformações, invoca draw para cada um dos descendentes
+	void draw(); //TODO aplica a sua aparência e transformações, invoca draw para cada um dos descendentes
+	void print() const;
+	string getID() const;
+	bool operator==(node n2) const;
 };
 
 class graph{
 private:
-	map<node *, node * > nodeMap;
-	vector<node *> nodes;
+	map<string, vector<graphElement *> >graphMap;
+	node * rootNode;
 public:
-	bool addNode(node * n);
-	bool addEdge(node * parent, node * child);
-
+	bool addNode(node* n);
+	bool addEdge(string parentID, graphElement* child);
+	void print() const;
+	vector<graphElement *> getChildren(string id) const;
 };
 
